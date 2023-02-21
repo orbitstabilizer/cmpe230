@@ -1,11 +1,31 @@
-#include <stdio.h>
+#include <stdio.h> // preprocessor statement
 
-int func();//function prototype
+#ifdef INTEL
+#define N 32
+#else 
+#define N 64
+#endif
+
+
+int func();//function prototype in c , 
+           //function signature in java
 
 int main(int argc, char** argv) {
-    for(int i = 0 ; i< argc; i++){
+    int x = N ;
+    /*for(int i = 0 ; i< argc; i++){
         printf("%s\n", argv[i]);
-    }
+    }*/
+    printf("%d\n" , x);
     return 0;
     
 }
+
+
+/*
+* gcc: prepocessor > compiler > linker 
+*/
+
+// gcc -c file.c : compile without linking
+// gcc file.c : do all pre-com-link, default behavior  
+//      output : a.out in unix , a.exe in win
+// gcc -DINTEL 
