@@ -41,3 +41,4 @@ int main(int argc, char** argv) {
 // gcc file.c : do all pre-com-link, default behavior  
 //      output : a.out in unix , a.exe in win
 // gcc -DINTEL : define INTEL flag 
+
