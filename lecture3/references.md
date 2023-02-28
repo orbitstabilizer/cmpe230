@@ -40,7 +40,9 @@ Void Type
 		- void pointer can be used for template functions
 	- C++ is object oriented
 
+gcc-12 -m32 // compiles with 32 bit int
 
+r-value
 
 
 
