@@ -33,8 +33,12 @@ Basic Types
 		- truncation error
 	- double : is more accurate, has bigger mantissa part
 
+Enumerated Types
 
-
+Void Type
+	- C is not object oriented, void pointers works for this purpose, c has no [templates](https://stackoverflow.com/questions/2873850/is-there-an-equivalent-in-c-for-c-templates)
+		- void pointer can be used for template functions
+	- C++ is object oriented
 
 
 
