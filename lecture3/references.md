@@ -27,3 +27,18 @@
 		 - union
 		 - function type?? (function pointer? )
 		 - 
+Basic Types
+	- float : \[ sign bit : exponent : mantissa \] // [ieee 754 standard](https://en.wikipedia.org/wiki/IEEE_754)
+		-1.23E23   |s| exponent |
+		- truncation error
+	- double : is more accurate, has bigger mantissa part
+
+
+
+
+
+
+
+
+
+
