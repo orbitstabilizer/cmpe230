@@ -21,5 +21,16 @@ int main(int argc, char *argv[]) { // in cpp int& is
     printf("sizeof(p) = %lu\n", sizeof(p));
 
     // gcc -m32 main.c -o main  // 32 bit 
+
+    int A[6];
+    int *pA = A; // pointer to array
+    int *pB = &A[0]; // pointer to array
+    // similarly
+    int *pC = A + 1; // pointer to array at index 1
+    // A[i] == *(A + i*sizeof(A[0]))
+    printf("sizeof(A) = %lu\n", sizeof(A));
+    printf("sizeof(pA) = %lu\n", sizeof(pA));
+    printf("sizeof(int) = %lu\n", sizeof(int));
+
     return 0;
 }
