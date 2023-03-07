@@ -3,4 +3,8 @@
 ```c
 &(A[i]) == A + i 
 ```
-### Casting
+**Casting** 
+### Strings
+- strings are $\0$ terminated char arrays.
+- sentinel charcter : $\0$
+- 
